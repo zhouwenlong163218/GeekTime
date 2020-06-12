@@ -4,7 +4,10 @@ import router from "./router";
 import store from "./store";
 import Vant from 'vant';
 import 'vant/lib/index.css';
+import { Tabbar, TabbarItem } from 'vant';
 
+Vue.use(Tabbar);
+Vue.use(TabbarItem);
 Vue.use(Vant);
 
 Vue.config.productionTip = false;

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="zuida">
       <div class="title1">
        <div>
            <h3 class="faxian">发现</h3>
@@ -195,10 +195,132 @@
                    <p class="huanyihuan"> 换一换</p>
               </div>            
          </div>
-    <div class="VIP">
-
+         <div class="Vip">
+             <p class="text-vip">开 通 VIP 畅 看，低 至 1 远 /天</p>
+         </div>
+      <div class="xian">
+          <van-divider />
+          </div>
+      <div class="mac-talk" >
+            <div  class="zixun-background">
+                <div class="zixun">
+                    <p class="text-zixun">咨讯</p>
+                  <img class="zixun-right" src="../../assets/img/right01.png" >  
+                    <img class="zixun-shu" src="../../assets/img/shu1.png" > 
+                </div>
+               <div class="zixun-lunbao">
+                 <van-swipe style="height: 80px;  background-color:blue;" :autoplay="2000" vertical show-indicators="false">
+                 <van-swipe-item style="text-align: center;">1</van-swipe-item>
+                 <van-swipe-item>2</van-swipe-item>
+                 <van-swipe-item>3</van-swipe-item>
+                 <van-swipe-item>4</van-swipe-item>
+                 </van-swipe>
+               </div>
+               <div class="zixun-r">
+                 <img class="readhub-icon" src="../../assets/img/readhub-icon.png" > 
+               </div>
+            </div>
+           </div>    
+    <div>
+        <div>
+         <img class="guanggao" src="../../assets/img/guanggao.jpg" alt="">
+        </div>
+           <div class="title-jike">
+           <span class="text-color">|</span>
+           <span class="text-jike">推荐阅读</span>
+           <p class="text-zhibo">全部课程 </p> 
+        </div>
+         <div>
+            <img class="tuijian" src="../../assets/img/tuijian.jpg" >
+            <img class="tuijian" src="../../assets/img/tuijian.jpg" >
+            <img class="tuijian" src="../../assets/img/tuijian.jpg" >
+            <img class="tuijian" src="../../assets/img/tuijian.jpg" >
+             <img class="tuijian" src="../../assets/img/tuijian.jpg" >
+            <img class="tuijian" src="../../assets/img/tuijian.jpg" >
+        </div>
+              <div class="huan">
+ 
+        <div>
+            <img class="huanyi" src="../../assets/img/huan.png" >
+        </div>        
+              <div>
+                   <p class="huanyihuan"> 换一换</p>
+              </div>            
+         </div>
     </div>
-  
+    <div class="xian">
+          <van-divider />
+     </div>
+      <div>
+         <img class="guanggao" src="../../assets/img/guanggao.jpg" alt="">
+     </div>
+     <div>
+          <div class="title-jike">
+           <span class="text-color">|</span>
+           <span class="text-jike">热点专题</span>
+           <p class="text-zhibo">查看全部 </p> 
+        </div> 
+        <div class="daxue-back0">
+         <div class="daxue-back">
+             <img class="xunlianying"  src="../../assets/img/mac-talk.jpg" >
+   
+         </div>
+             <div class="daxue-back1">
+             <img class="xunlianying" src="../../assets/img/mac-talk.jpg" >
+         </div>       
+     </div> 
+     </div>
+     <div>
+            <div class="xian">
+          <van-divider />
+     </div>
+       <div class="title-jike">
+           <span class="text-color">|</span>
+           <span class="text-jike">视频合辑</span>
+           <p class="text-zhibo">查看全部 </p> 
+        </div>
+        <div class="heji">
+            <div class="nainshao">
+                <div   class="nainshao-image1">
+               <img class="boshi-image" src="../../assets/img/博士.png" alt="">
+                </div>
+                <div style="margin-left:16px"> 
+              <p>年少有为</p>
+              <p  class="text-xunlianying2">共1个视频</p>
+                </div>  
+            </div >
+            <div class="nainshao">
+                <div   class="nainshao-image1">
+               <img class="boshi-image" src="../../assets/img/青年.png" alt="">
+                </div>
+                <div style="margin-left:16px"> 
+              <p>用户故事</p>
+              <p  class="text-xunlianying2">共1个视频</p>
+                </div>
+            </div>   
+        </div>  
+          <div class="heji1">
+            <div class="nainshao">
+                <div   class="nainshao-image1">
+               <img class="boshi-image" src="../../assets/img/博士.png" alt="">
+                </div>
+                <div style="margin-left:16px"> 
+              <p>年少有为</p>
+              <p  class="text-xunlianying2">共1个视频</p>
+                </div>  
+            </div >
+            <div class="nainshao">
+                <div   class="nainshao-image1">
+               <img class="boshi-image" src="../../assets/img/青年.png" alt="">
+                </div>
+                <div style="margin-left:16px"> 
+              <p>用户故事</p>
+              <p  class="text-xunlianying2">共1个视频</p>
+                </div>
+            </div>   
+        </div>  
+     </div>
+
 </div>
 
 </template>
@@ -214,6 +336,9 @@ export default {
 </script>
 
 <style>
+.zuida{
+    margin-bottom: 5rem;
+}
 .title1{
     display:flex;
 }
@@ -428,10 +553,78 @@ font-size: 13px;
     font-size: 14px;
     color: #FFB90F;   
 }
-.VIP{
-    margin: 1rem;
-    background-color: seagreen;
-    width: 93%;
-    height: 3rem;
+.Vip{
+      margin: 1rem;
+      background-color: rgb(247, 232, 148) ;
+      height: 3rem;
+      width: 94%;
+}
+.text-vip{
+    padding-top: 1rem;
+}
+.zixun-background{
+    display: flex;
+}
+.zixun{
+    display: flex;
+    height: 5rem;
+    width:5rem;
+}
+.text-zixun{
+    margin-left: 1rem;
+    margin-top:  1.8rem;
+}
+.text-shu{
+    padding-left: 2rem;
+     height: 1rem;
+}
+.zixun-right{
+    margin-top: 2rem;
+    width: 1rem;
+    height: 1rem;
+}
+.zixun-lunbao{
+    height: 5rem;
+    width:14rem;
+}
+.zixun-r{
+    height: 5rem;
+    width:5rem;
+}
+.readhub-icon{
+    padding-top: 1rem;
+    width: 60%;
+    height: 60%;
+}
+.tuijian{
+    width: 26rem;
+    height: 5rem;
+}
+.heji{
+    height: 5rem;
+    display: flex;
+}
+.nainshao{
+    display: flex;
+    box-shadow:#bfbfbf 0px 0px 2px;
+    margin-top: 1rem;
+    height: 5rem;
+    width: 43%;
+    margin-left: 15px;
+}
+.nainshao-image1{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+boshi-image{
+   height: 2rem;
+    width: 2rem; 
+}
+.heji1{
+    margin-top: 1.5rem;
+    height: 5rem;
+    display: flex;
 }
 </style>
