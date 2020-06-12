@@ -20,6 +20,11 @@ const routes = [
     name:'Study',
     component: () => import('../views/home/Layout.vue'),
   }, */
+      {
+    path:'/myinformation',
+    name:'Myinformation',
+    component: () => import('../views/my/MyInformation.vue'),
+  },
   {
     path: '/',
     name: 'Layout',
@@ -30,16 +35,25 @@ const routes = [
       {
         path:'/find',
         name:'Find',
+        title:'发现',
         component: () => import('../views/home/Find.vue'),
       },
       {
         path:'/study',
         name:'Study',
+        title:'学习',
         component: () => import('../views/home/Study.vue'),
       },
       {
         path:'/tribe',
         name:'tribe',
+        title:'部落',
+        component: () => import('../views/home/Tribe.vue'),
+      },
+      {
+        path:'/class',
+        name:'class',
+        title:'讲堂',
         component: () => import('../views/home/Tribe.vue'),
       },
     ],
