@@ -5,25 +5,15 @@ import Layout from "../views/home/Layout.vue";
 Vue.use(VueRouter);
 
 const routes = [
-/*   {
-    path:'/find',
-    name:'Find',
-    component: () => import('../views/home/Find.vue'),
-  }, */
-/*   {
-    path:'/study',
-    name:'Study',
-    component: () => import('../views/home/Study.vue'),
-  }, */
- /*    {
-    path:'/layout',
-    name:'Study',
-    component: () => import('../views/home/Layout.vue'),
-  }, */
-      {
+  {
     path:'/myinformation',
     name:'Myinformation',
     component: () => import('../views/my/MyInformation.vue'),
+  },
+  {
+    path:'/search',
+    name:'Search',
+    component:() =>import('../views/search/Search.vue'),
   },
   {
     path: '/',

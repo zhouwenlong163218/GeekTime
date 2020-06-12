@@ -242,9 +242,6 @@ export default {
 </script>
 
 <style>
-.tribe{
- 
-}
 .tribe-fen{
   display: flex;
 }
