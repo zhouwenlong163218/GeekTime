@@ -251,7 +251,7 @@ export default {
     height: 3rem;
 }
 .guanzhu{
-    width: 414px;
+    width: 100vw;
     
 }
 .trible-title-image{

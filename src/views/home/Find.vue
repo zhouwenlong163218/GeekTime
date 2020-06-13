@@ -11,8 +11,15 @@
       <div>
           <van-search shape="round" v-model="value" placeholder="搜索课程、课程的内容、每日一课等" />
       </div>
-        <div>
-           <img  src="../../assets/img/image1.png"/>
+        <div class="my-swipe1">
+            <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
+  <van-swipe-item>
+    <img  src="../../assets/img/image1.png"/>  
+  </van-swipe-item>
+  <van-swipe-item><img  src="../../assets/img/image1.png"/></van-swipe-item>
+  <van-swipe-item><img  src="../../assets/img/image1.png"/></van-swipe-item>
+</van-swipe>
+          <!--  <img  src="../../assets/img/image1.png"/> -->
        </div>
        
        <div class="mac-talk">
@@ -336,6 +343,11 @@ export default {
 </script>
 
 <style>
+.my-swipe1{
+    width: 93%;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
 .zuida{
     margin-bottom: 5rem;
 }

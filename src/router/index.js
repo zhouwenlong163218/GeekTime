@@ -13,6 +13,7 @@ const routes = [
   {
     path:'/search',
     name:'Search',
+    title:'历史搜索',
     component:() =>import('../views/search/Search.vue'),
   },
   {
@@ -44,7 +45,7 @@ const routes = [
         path:'/class',
         name:'class',
         title:'讲堂',
-        component: () => import('../views/home/Tribe.vue'),
+        component: () => import('../views/home/Class.vue'),
       },
     ],
   },
