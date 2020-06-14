@@ -61,7 +61,7 @@ export default {
       Toast(val);
     },
     onCancel() {
-      Toast('取消');
+     this.$router.push('/find');
     },
   },
 };

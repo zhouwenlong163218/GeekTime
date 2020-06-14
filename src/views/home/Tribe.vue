@@ -221,10 +221,10 @@
       </van-tab>
     </van-tabs>
         </div>
-  <div class="trible-title-image">
+  <!-- <div class="trible-title-image">
      <img class="tribe-me" src="../../assets/tribeimg/我的.png" alt="">
      <img class="tongji" src="../../assets/img/统计.png" alt="">
-  </div>
+  </div> -->
 
   </div>
 </div>

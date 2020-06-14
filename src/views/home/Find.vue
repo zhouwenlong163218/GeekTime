@@ -8,8 +8,11 @@
            <img class="image-shake" src="../../assets/img/shake-icon.png"/>
        </div>
       </div>
-      <div>
-          <van-search shape="round" v-model="value" placeholder="搜索课程、课程的内容、每日一课等" />
+      <div><router-link to="search">
+          <van-search shape="round" v-model="value"
+           placeholder="搜索课程、课程的内容、每日一课等" />
+      </router-link>
+          
       </div>
         <div class="my-swipe1">
             <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">

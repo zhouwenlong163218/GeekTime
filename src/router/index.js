@@ -11,6 +11,12 @@ const routes = [
     component: () => import('../views/my/MyInformation.vue'),
   },
   {
+    path:'/messagecenter',
+    name:'Message',
+    titlt:'消息中心',
+    component: () => import('../views/my/MessageCenter.vue'),
+  },
+  {
     path:'/search',
     name:'Search',
     title:'历史搜索',
@@ -46,6 +52,12 @@ const routes = [
         name:'class',
         title:'讲堂',
         component: () => import('../views/home/Class.vue'),
+      },
+      {
+        path:'/me',
+        name:'me',
+        title:'我的',
+        component: () => import('../views/home/Me.vue'),
       },
     ],
   },
