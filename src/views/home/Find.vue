@@ -621,7 +621,7 @@ font-size: 13px;
 }
 .nainshao{
     display: flex;
-    box-shadow:#bfbfbf 0px 0px 2px;
+    box-shadow:#fbfbfd 2px 2px 5px;
     margin-top: 1rem;
     height: 5rem;
     width: 43%;
@@ -633,7 +633,7 @@ font-size: 13px;
     height: 2rem;
     width: 2rem;
 }
-boshi-image{
+.boshi-image{
    height: 2rem;
     width: 2rem; 
 }

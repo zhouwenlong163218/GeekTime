@@ -17,6 +17,12 @@ const routes = [
     component: () => import('../views/my/MessageCenter.vue'),
   },
   {
+    path:'/systemcenter',
+    name:'System',
+    titlt:'系统通知',
+    component: () => import('../views/my/SystemCenter.vue'),
+  },
+  {
     path:'/search',
     name:'Search',
     title:'历史搜索',

@@ -7,6 +7,7 @@
           title-active-color="#3d3d3d"
           :active="active"  :color="'#fa8818'">
            <van-tab title="课程">
+             
           <div class="class-tab">
                <div class="learing-path">
                     <p class="learn-text">学习路劲</p>
@@ -73,7 +74,7 @@
               <div>
                 <div class="drop-down-box">
                   <div  class="drop-down-box1" >
-                         <van-dropdown-menu active-color="#ee8a27"> 
+                      <van-dropdown-menu active-color="#ee8a27"> 
                   <van-dropdown-item v-model="value1" :options="option1" />
                   <van-dropdown-item v-model="value2" :options="option2" />
                   </van-dropdown-menu>
@@ -203,7 +204,241 @@
       <van-tab>
         <div slot="title">训练营</div>
         <div class="class-tab">
+            <div class="swipe-background">
+               <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white"  :show-indicators="false">
+  <van-swipe-item>
+    <img class="swipe-image101" src="../../assets/classimg/swipe-image2.png" alt="">
+  </van-swipe-item>
+  <van-swipe-item>
+      <img class="swipe-image101" src="../../assets/classimg/swipe-image3.png" alt="">
+  </van-swipe-item>
+  <van-swipe-item>
+      <img class="swipe-image101" src="../../assets/classimg/swipe-image1.png" alt="">
+  </van-swipe-item>
+  <van-swipe-item>
+      <img class="swipe-image101" src="../../assets/classimg/swipe-image4.png" alt="">
+  </van-swipe-item>
+</van-swipe>
+            </div>
+            <div class="training-camp-text">
+                   <p class="training-text1">训练营</p>
+                   <p class="training-text2">去我的教室学习</p>
+            </div>
+            <div>
+              <div class="class-people101">
+                  <div class="class-people1">
+                     <img  class="people1" src="../../assets/classimg/people.101.png" alt="">   
+                  </div>
+                  <div class="information-background">
+                    <p class="info-text-z">Python 进阶训练营</p>
+                    <div class="name-title">
+                        <div class="class-name">
+                         <p class="name-text">尹会生</p>
+                        </div>
+                         <div class="class-name1">
+                         <p class="name-text">金山西山居运维总监</p>
+                        </div>
+                    </div> 
+                    <p class="info-text">最近开营: 第1期·6月22日</p> 
+                    <div class="name-price">
+                        
+                         <p  class="name-price-text101">￥1299</p>
+                         <p class="name-price-text101-1">￥1299</p>
 
+                          <div class="info-follow101">
+                      <p class="info-pay-attention">立即报名</p>
+                  </div> 
+                    </div>              
+                  </div>   
+                </div>
+                  <div class="class-people101">
+                  <div class="class-people1">
+                     <img  class="people1" src="../../assets/classimg/people.102.png" alt="">   
+                  </div>
+                  <div class="information-background">
+                    <p class="info-text-z">算法训练营</p>
+                    <div class="name-title">
+                        <div class="class-name">
+                         <p class="name-text">谭超</p>
+                        </div>
+                         <div class="class-name1">
+                         <p class="name-text">前 Facebook 工程师</p>
+                        </div>
+                    </div> 
+                    <p class="info-text">最近开营: 第1期·6月22日</p> 
+                    <div class="name-price">
+                        
+                         <p  class="name-price-text101">￥1299</p>
+                         <p class="name-price-text101-1">￥2499</p>
+
+                          <div class="info-follow101">
+                      <p class="info-pay-attention">立即报名</p>
+                  </div> 
+                    </div>              
+                  </div>   
+                </div>
+
+                 <div class="class-people101">
+                  <div class="class-people1">
+                     <img  class="people1" src="../../assets/classimg/people.101.png" alt="">   
+                  </div>
+                  <div class="information-background">
+                    <p class="info-text-z">Python 进阶训练营</p>
+                    <div class="name-title">
+                        <div class="class-name">
+                         <p class="name-text">尹会生</p>
+                        </div>
+                         <div class="class-name1">
+                         <p class="name-text">金山西山居运维总监</p>
+                        </div>
+                    </div> 
+                    <p class="info-text">最近开营: 第1期·6月22日</p> 
+                    <div class="name-price">
+                        
+                         <p  class="name-price-text101">￥1299</p>
+                         <p class="name-price-text101-1">￥1299</p>
+
+                          <div class="info-follow101">
+                      <p class="info-pay-attention">立即报名</p>
+                  </div> 
+                    </div>              
+                  </div>   
+                </div>
+                  <div class="class-people101">
+                  <div class="class-people1">
+                     <img  class="people1" src="../../assets/classimg/people.102.png" alt="">   
+                  </div>
+                  <div class="information-background">
+                    <p class="info-text-z">算法训练营</p>
+                    <div class="name-title">
+                        <div class="class-name">
+                         <p class="name-text">谭超</p>
+                        </div>
+                         <div class="class-name1">
+                         <p class="name-text">前 Facebook 工程师</p>
+                        </div>
+                    </div> 
+                    <p class="info-text">最近开营: 第1期·6月22日</p> 
+                    <div class="name-price">
+                        
+                         <p  class="name-price-text101">￥1299</p>
+                         <p class="name-price-text101-1">￥2499</p>
+
+                          <div class="info-follow101">
+                      <p class="info-pay-attention">立即报名</p>
+                  </div> 
+                    </div>              
+                  </div>   
+                </div>
+                <div class="training-camp-text">
+                   <p class="training-text1">体验课</p>         
+            </div>
+            </div>
+        
+                <div >
+                  <van-swipe :loop="false" :width="300"  :show-indicators="false">
+                   <van-swipe-item>
+                <img class="swipe-image101-5" src="../../assets/classimg/swipe-image5.png" >
+               </van-swipe-item>
+               <van-swipe-item>
+                <img class="swipe-image101-5" src="../../assets/classimg/swipe-image6.png" >
+              </van-swipe-item>
+               </van-swipe>
+                </div>
+                 <div class="training-camp-text">
+                   <p class="training-text1">选课服务</p></div>
+                   <img class="lesson-lesson" src="../../assets/classimg/lesson1.png" alt="">
+                 <!-- <div>
+                     <div class="heji1">
+                <div class="nainshao">
+                 <div   class="nainshao-image1">
+               <img class="boshi-image" src="../../assets/classimg/icon-lesson.png" alt="">
+                </div>
+                <div style="margin-left:16px"> 
+                 <p style="margin-top:1.5rem">咨询选课</p>            
+                </div>  
+            </div >
+             
+                 <img class="lesson-lesson" src="../../assets/classimg/lesson.png" alt=""> 
+
+              </div>  
+              
+                 </div> -->
+             <div class="training-camp-text">
+                   <p class="training-text1">Offer榜</p></div>
+                 <img class="lesson-lesson1" src="../../assets/classimg/offer-image.png" alt="">
+                <div class="huan">
+                   <div>
+                    <img class="huanyi" src="../../assets/img/huan.png" >
+                 </div>        
+              <div>
+                   <p class="huanyihuan"> 换一换</p>
+              </div>
+                </div>
+                  <div class="xian">
+          <van-divider  :style="{ color: '#dbdbdb' }" />
+             </div>
+             <div class="training-camp-text">
+                   <p class="training-text1">学员故事</p></div>
+                
+                <div class="nainshao1">
+                 <div class="nainshao2">
+                   <p class="nainshao3">程序员养成记 | 如何用2个月攻克算法？</p>
+                   <div class="nainshao101-1">
+                     <van-image round  width="2rem" height="2rem"
+                     src="https://img.yzcdn.cn/vant/cat.jpeg"/>
+                     <p  class="info-text1"> 笙南 算法训练营 1、2期学员</p>
+                     
+                   </div>
+                   <p class="story-text">以前日刷一题想都不敢想，但打好扎实得数据结构基础之后，
+                       我曾用两周时间，刷了大学40道题，覆盖数组、链表、动态规则等....
+                     </p>
+                </div>   
+                </div>
+
+                <div class="nainshao1">
+                 <div class="nainshao2">
+                   <p class="nainshao3">程序员养成记 | 如何用2个月攻克算法？</p>
+                   <div class="nainshao101-1">
+                     <van-image round  width="2rem" height="2rem"
+                     src="https://img.yzcdn.cn/vant/cat.jpeg"/>
+                     <p  class="info-text1"> 笙南 算法训练营 1、2期学员</p>
+                     
+                   </div>
+                   <p class="story-text">以前日刷一题想都不敢想，但打好扎实得数据结构基础之后，
+                       我曾用两周时间，刷了大学40道题，覆盖数组、链表、动态规则等....
+                     </p>
+                </div>   
+                </div>
+                <div class="nainshao1">
+                 <div class="nainshao2">
+                   <p class="nainshao3">程序员养成记 | 如何用2个月攻克算法？</p>
+                   <div class="nainshao101-1">
+                     <van-image round  width="2rem" height="2rem"
+                     src="https://img.yzcdn.cn/vant/cat.jpeg"/>
+                     <p  class="info-text1"> 笙南 算法训练营 1、2期学员</p>
+                     
+                   </div>
+                   <p class="story-text">以前日刷一题想都不敢想，但打好扎实得数据结构基础之后，
+                       我曾用两周时间，刷了大学40道题，覆盖数组、链表、动态规则等....
+                     </p>
+                </div>   
+                </div>
+                
+                <div class="nainshao1">
+                 <div class="nainshao2">
+                   <p class="nainshao3">程序员养成记 | 如何用2个月攻克算法？</p>
+                   <div class="nainshao101-1">
+                     <van-image round  width="2rem" height="2rem"
+                     src="https://img.yzcdn.cn/vant/cat.jpeg"/>
+                     <p  class="info-text1"> 笙南 算法训练营 1、2期学员</p>
+                     
+                   </div>
+                   <p class="story-text">以前日刷一题想都不敢想，但打好扎实得数据结构基础之后，
+                       我曾用两周时间，刷了大学40道题，覆盖数组、链表、动态规则等....
+                     </p>
+                </div>   
+                </div>
         </div>
       </van-tab>
       <van-tab>
@@ -262,18 +497,16 @@ export default {
   font-size: 18px;
 }
 .learn-text1{
-
   margin-left: 15rem;
   font-size: 13px;
    color: #bfbfbf;
 }
  .bigd{
-       margin-left: 0.5rem;
-        height: 10%;
-        width: 100%;
-        overflow-x: scroll;
-        box-sizing: border-box;
-      
+  margin-left: 0.5rem;
+  height: 10%;
+  width: 100%;
+  overflow-x: scroll;
+  box-sizing: border-box;    
     }
 .swipe-image{
      width: 220%;
@@ -287,7 +520,6 @@ export default {
    box-sizing: border-box;
 }
 .course-direction{
-
   margin-left: 1.5rem;
   width: 90%;
 }
@@ -392,6 +624,7 @@ margin-top: 1.2rem;
 }
 .information-background{
   margin-left: 0.8rem;
+  text-align: left;
 }
 .class-name{
   height: 1.5rem;
@@ -415,7 +648,7 @@ font-size: 14px;
   background-color: #f1f1f1;
 }
 .info-text{
-  margin-top: 0rem;
+  margin-top: 00.3rem;
   text-align: left;
   color: #a0a0a0;
   font-size: 13px;
@@ -462,5 +695,156 @@ font-size: 14px;
   text-align: center;
   font-size: 14px;
   color: #fa8818;
+}
+.swipe-background{
+  margin-top: 1rem;
+  width: 90%;
+  margin-left: 0.8rem;
+  border-radius: 5px;
+}
+.swipe-image101{
+  width: 100%;
+  height: 7rem;
+}
+.training-camp-text{
+  display: flex;
+  widows: 90%; 
+  margin-left: 0.8rem;
+
+}
+.training-text1{
+  font-weight: 600;
+  font-size: 18px;
+}
+.training-text2{
+  margin-right: 0rem;
+  margin-left: 14.5rem;
+  font-size: 13px;
+  color: #888888;
+  margin-top: 1.5rem;
+}
+.class-people101{
+  margin-top: 2rem;
+  display: flex;
+  margin-left: 0.8rem;
+  width: 90%;
+ 
+}
+.info-follow101{
+  text-align: center;
+  border-radius: 50px;
+  margin-left: 5.5rem;
+  width: 80px;
+  height: 1.5rem;
+  background-color: #fcf5ed;
+}
+.name-price-text101{
+  
+  margin-left: 0rem;
+  margin-right: 0.2rem;
+  margin-top: 0rem;
+  text-align: center;
+  font-size: 15px;
+  color: #fb8819;
+}
+.name-price-text101-1{
+  text-decoration: line-through;
+  margin-left: 0.5rem;
+  margin-top: 0rem;
+  text-align: left;
+  color: #a0a0a0;
+  font-size: 13px;
+}
+
+ceshi{
+  height: 5rem;
+  background-color: blue;
+  
+}
+.swipe-image101-5{
+  height: 10rem;
+}
+.heji1{
+    height: 5rem;
+    display: flex;
+}
+.nainshao{
+  text-align: center;
+    display: flex;
+   box-shadow:#dbdbdb 0px 0px 5px;;
+    margin-top: 1rem;
+    width: 9rem;
+    
+    margin-left: 15px;
+}
+.nainshao-image1{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+.boshi-image{
+   height: 1.5rem;
+    width: 1.5rem; 
+}
+
+.lesson-lesson{
+  height: 5.5rem;
+}
+.lesson-lesson1{
+  height: 20rem;
+}
+.huanyi{
+    margin-top: 1rem;
+}
+.huanyihuan{
+    margin-left: 1rem;
+    font-size: 14px;
+    color: #FFB90F;   
+}
+.huan{
+ 
+  margin-left: 10rem;
+  display: flex;
+}
+.xian{  
+    margin-top: 0rem;
+    margin-left: 0.8rem;
+}
+.nainshao1{    
+   width: 90%;
+   box-shadow:#dbdbdb 0px 0px 5px;;
+    margin-top: 1rem;
+ height: 11rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.nainshao2{ 
+  margin-left: 1rem;
+  text-align: left;
+}
+.nainshao3{
+  
+  font-weight: 550;
+  letter-spacing:1px;
+  padding-top: 1rem;
+}
+.nainshao101-1{
+  width: 14rem;
+  border-radius: 30px;
+  background-color: #f6f7fb;
+  display: flex;
+  
+}
+.info-text1{
+  margin-top: 00.5rem;
+  margin-left: 0.5rem;
+  color: #a0a0a0;
+  font-size: 13px;
+}
+.story-text{
+  font-size: 14px;
+    letter-spacing:3px;
 }
 </style>

@@ -7,6 +7,7 @@
           title-active-color="#3d3d3d"
           :active="active"  :color="'#fa8818'">
            <van-tab title="关注">
+             
            <div class="guanzhu" >
               <div class="info-title">
                 <div class="info-title-info-me">
@@ -252,7 +253,7 @@ export default {
 }
 .guanzhu{
     width: 100vw;
-    
+    margin-bottom: 5rem;
 }
 .trible-title-image{
   margin-top: 1rem;
@@ -413,7 +414,6 @@ export default {
   margin-top: 1rem;
   display: flex;
   margin-left: 6rem;
-  width: 90%;
   height: 2rem;
 }
 .news-image{
@@ -427,7 +427,7 @@ export default {
   margin-left: 0.2rem;
 }
 .news-image1{
-  margin-left: 100px;
+  margin-left: 80px;
   height: 25px;
   width: 25px;
 }
@@ -439,7 +439,6 @@ export default {
 .news-image3{
   display: flex;
   margin-left: 6rem;
-  width: 90%;
   height: 2rem; 
 }
 .snipaste4{

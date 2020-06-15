@@ -32,7 +32,7 @@
        </div>  
     </div>
       <div  class="dingyuan-title">
-          <p class="none-study">暂无#fa8818学习内容</p>
+          <p class="none-study">暂无学习内容</p>
           <van-button style="width:40%"  color="#fa8818" round type="info">订阅</van-button>
       </div>
      </div>
@@ -47,6 +47,9 @@ export default {
 </script>
 
 <style>
+.tribe-title{
+  width: 70%;
+}
 .study-background{
   height: 15rem;   
   background-image: url('../../assets/studyimg/bg.png'); 
@@ -120,4 +123,5 @@ export default {
 .tribe-me{
   margin-left: 10rem;
 }
+
 </style>

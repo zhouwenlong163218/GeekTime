@@ -12,7 +12,8 @@
         <div class="message-divider">
                <van-divider :style="{borderColor: '#bfbfbf'}" />
         </div>
-        <div class="message-image1">
+        <router-link to="systemcenter">
+               <div class="message-image1">
             <img class="message-tongzhi" src="../../assets/message/系统通知.png" alt="">
             <div class="message-text-back">
                 <div class="mesage-texte-backgruond">
@@ -23,6 +24,8 @@
                 <p class="message-text">你有1张价值10元的礼券将于今晚24点过期...</p>
             </div>
         </div>
+        </router-link>
+     
         <div class="xian">
            <van-divider :style="{borderColor: '#bfbfbf'}" />
           </div> 
@@ -72,7 +75,7 @@ export default {
 }
 .message-top{
     margin-left: 1.5rem;
- display: flex;
+   display: flex;
 }
 .message-top-text{
     font-weight: 500;
