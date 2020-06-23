@@ -3,6 +3,7 @@
   <div class="tribe-fen">
  <div class="tribe-title">
          <van-tabs
+         line-width="30px"
          title-inactive-color="#d2d2d2"
           title-active-color="#3d3d3d"
           :active="active"  :color="'#fa8818'">

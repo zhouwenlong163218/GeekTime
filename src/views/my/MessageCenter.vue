@@ -43,7 +43,8 @@
         <div class="xian">
            <van-divider :style="{borderColor: '#bfbfbf'}" />
           </div> 
-<div class="message-image1">
+          <router-link to="learningassistance">
+             <div class="message-image1">
             <img class="message-tongzhi" src="../../assets/message/学习助手.png" alt="">
             <div class="message-text-back">
                 <div class="mesage-texte-backgruond">
@@ -57,6 +58,8 @@
         <div class="xian">
            <van-divider :style="{borderColor: '#bfbfbf'}" />
           </div> 
+          </router-link>
+        
       </div>
   </div>
 </template>

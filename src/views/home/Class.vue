@@ -3,6 +3,7 @@
   <div class="tribe-fen">
  <div class="tribe-title">
          <van-tabs
+         line-width="20px"
          title-inactive-color="#d2d2d2"
           title-active-color="#3d3d3d"
           :active="active"  :color="'#fa8818'">
@@ -444,8 +445,219 @@
       <van-tab>
         <div slot="title">每日一课</div>
         <div class="time-class">
-          <p>132</p>
-          <p>123</p>
+          <div>
+            <div class="class-tab">
+               <div><router-link to="search">
+          <van-search shape="round" v-model="value"
+           placeholder="搜索每日一课" />         
+      </router-link>      
+      </div>
+      <div class="box">
+        <div class="day-lesson-image1">
+           <van-image
+          round
+          width="3rem"
+        height="3rem"
+         src="https://img.yzcdn.cn/vant/cat.jpeg"/>
+        </div>
+          <div  class="day-lesson-name1">
+           <div class="day-lesson-name">
+               <p>Geek_8662c2</p>
+               <div class="day-lesson-vip">
+                   <p class="day-lesson-vip1">VIP</p>                 
+               </div>
+               <p class="day-lesson-vip2">未开通</p>
+             </div>
+             <p class="day-lesson-text">我的每日一课 ></p>
+          </div>
+            <div class="vip-kaitong">
+              <p class="vip-kaitong1">开通</p>
+            </div>
+           </div>
+           <div class="day-lesson-height">
+              <div class="training-camp-text">
+                   <p class="training-text1">推荐分类</p>
+                   <img class="day-lesson-right" src="../../assets/img/right.png" alt="">
+            </div>
+            
+           </div>
+           
+           <div class="course-direction">  
+                 <div class="course-direction1">
+                    <div class="course">
+                     <p>Linux</p>
+                 </div>
+                    <div class="course1">
+                     <p>架构设计</p>
+                 </div>
+                    <div class="course2">
+                     <p>性能优化</p>
+                 </div>
+                   </div>    
+                  <div class="course-direction2">
+                    <div class="course11">
+                     <p>微服务</p>
+                 </div>
+                    <div class="course12">
+                     <p class="course12-text">编程语言</p>
+                 </div>
+                    <div class="course13">
+                     <p>中台</p>
+                 </div>
+                   </div>  
+            </div> 
+
+              <div class="day-lesson-height">
+              <div class="training-camp-text">
+                   <p class="training-text1">最近更新</p>
+                   <img class="day-lesson-right" src="../../assets/img/right.png" alt="">
+            </div>
+           </div>
+               <div class="day-lesson-video1">
+                 <img class="video-image1" src="../../assets/classimg/shiping-image1.png" alt="">
+               </div>
+                 <div class="day-lesson-viedo2">
+                <P class="day-lesson-viedo2-text">如何从蛛丝马迹中分析系统空间···</P>
+                <div  class="day-lesson-viedo3">
+                   <p  class="info-text">李竹杨 平安壹钱包架构师</p>
+                     <div class="info-follow-day2">
+                      <p class="info-pay-attention">试看</p>
+                  </div> 
+                </div>     
+              </div >
+              <div  >
+                 <div class="video4">
+                <div class="video4-1">
+                  <img class="video4-1-bg" src="../../assets/classimg/video1.png" alt=""> 
+                </div> 
+                <div class="video-2">
+                  <div class="video-3">
+                      <p  class="video-2-text">如何开发一个App Crash测试平台？</p>   
+                     <p class="info-text-video">朱宏宝 贝壳找房资深工程师</p> 
+                     <div class="info-follow-day1">
+                      <p class="info-pay-attention">试看</p>
+                  </div> 
+                  </div>  
+                </div>               
+              </div>
+
+              <div class="video4">
+                <div class="video4-1">
+                  <img class="video4-1-bg" src="../../assets/classimg/video2.png" alt=""> 
+                </div> 
+                <div class="video-2">
+                  <div class="video-3">
+                      <p  class="video-2-text">IOS卡顿分析万油金</p>  
+                      <div class="day-info-bg">
+                          <p class="info-text-video">屠丹 贝壳找房资深工程师</p> 
+                      </div> 
+                   
+                     <div class="info-follow-day1">
+                      <p class="info-pay-attention">试看</p>
+                  </div> 
+                  </div>  
+                </div>               
+              </div>
+
+              <div class="video4">
+                <div class="video4-1">
+                  <img class="video4-1-bg" src="../../assets/classimg/viedo3.png" alt=""> 
+                </div> 
+                <div class="video-2">
+                  <div class="video-3">
+                      <p  class="video-2-text">如何做好容量评估？</p>  
+                          <div class="day-info-bg">
+                          <p class="info-text-video">黄信俊 易车技术总监</p>
+                      </div>
+                      
+                     <div class="info-follow-day1">
+                      <p class="info-pay-attention">试看</p>
+                  </div> 
+                  </div>  
+                </div>               
+              </div>         
+              </div>
+
+              <div class="day-lesson-height">
+              <div class="training-camp-text">
+                   <p class="training-text1">精选合辑</p>
+                   <img class="day-lesson-right" src="../../assets/img/right.png" alt="">
+            </div> 
+            </div>
+              <div class="day-lesson-video1">
+                 <img class="video-image1" src="../../assets/classimg/shiping-image2.png" alt="">
+               </div>
+               <div class="short-video">
+                             <div class="video-2">
+                  <div class="video-3">
+                      <p  class="video-2-text">新版短视频？</p>   
+                     
+                     <div class="info-follow-day3">
+                      <p class="info-pay-attention">试看</p>
+                  </div> 
+                  </div>  
+                </div>  
+               </div>
+       
+                 <div  >
+                 <div class="video4">
+                <div class="video4-1">
+                  <img class="video4-1-bg" src="../../assets/classimg/video5.png" alt=""> 
+                </div> 
+                <div class="video-2">
+                  <div class="video-3">
+                      <p  class="video-2-text">全栈稳定性提升必备</p>   
+                     <div class="info-follow-day11">
+                      <p class="info-pay-attention">试看</p>
+                  </div> 
+                  </div>  
+                </div>               
+              </div>
+
+              <div class="video4">
+                <div class="video4-1">
+                  <img class="video4-1-bg" src="../../assets/classimg/video6.png" alt=""> 
+                </div> 
+                <div class="video-2">
+                 <div class="video-3">
+                      <p  class="video-2-text">MySQL 难点解析</p>   
+                     <div class="info-follow-day11">
+                      <p class="info-pay-attention">试看</p>
+                  </div> 
+                  </div>   
+                </div>               
+              </div>
+
+              <div class="video4">
+                <div class="video4-1">
+                  <img class="video4-1-bg" src="../../assets/classimg/video7.png" alt=""> 
+                </div> 
+                <div class="video-2">
+                   <div class="video-3">
+                      <p  class="video-2-text">和田田一起学健身</p>   
+                     <div class="info-follow-day11">
+                      <p class="info-pay-attention">试看</p>
+                  </div> 
+                  </div>  
+                </div>               
+              </div>         
+              </div> 
+              <div class="day-lesson-height">
+              <div class="training-camp-text">
+                   <p class="training-text1">大会视频</p>
+                   <img class="day-lesson-right" src="../../assets/img/right.png" alt="">
+            </div> 
+            </div >
+            <div class="video8-bg"> 
+                <img class="video8" src="../../assets/classimg/video9.png" alt="">
+                
+            </div>
+          
+            </div> 
+               
+           
+
+          </div>
         </div>
       </van-tab>
     </van-tabs>
@@ -532,14 +744,14 @@ export default {
   color: #ae7145;
   border-radius: 5px;
   background-color: #fcf5ed;
-  width: 7rem;
+  width: 8rem;
   height: 3rem;
 }
 .course1{
   text-align: center;
   font-size: 13px;
   border-radius: 5px;
-  margin-left: 2rem;
+  margin-left: 1rem;
   background-color: #f6f7fc;
   width: 7rem;
   height: 3rem;
@@ -549,9 +761,9 @@ export default {
   text-align: center;
   color: #ae7145;
   border-radius: 5px;
-  margin-left: 2rem;
+  margin-left: 1rem;
   background-color: #fcf5ed;
-  width: 7rem;
+  width: 8rem;
   height: 3rem;
 }
 .course-direction2{
@@ -563,7 +775,7 @@ export default {
   text-align: center;
   border-radius: 5px;
   background-color: #f6f7fc;
-  width: 7rem;
+  width: 8rem;
   height: 3rem;
 }
 .course12{
@@ -571,7 +783,7 @@ export default {
   text-align: center;
   font-size: 13px;
   border-radius: 5px;
-  margin-left: 2rem;
+  margin-left: 1rem;
   background-color: #fcf5ed;
   width: 7rem;
   height: 3rem;
@@ -585,9 +797,9 @@ export default {
   font-size: 13px;
   text-align: center;
   border-radius: 5px;
-  margin-left: 2rem;
+  margin-left: 1rem;
   background-color: #f6f7fc;
-  width: 7rem;
+  width: 8rem;
   height: 3rem;
 }
 .drop-down-box{
@@ -847,4 +1059,190 @@ ceshi{
   font-size: 14px;
     letter-spacing:3px;
 }
+  .box
+  { display: flex;
+    border-radius: 5px;
+    height: 5rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+   background: linear-gradient(to bottom, #fffbf4 , #f4daab); 
+  }
+.day-lesson-image1{
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+}
+.day-lesson-name{
+  display: flex;
+ 
+}
+.day-lesson-name1{
+  text-align: left;
+  margin-left: 0.5rem;
+}
+.day-lesson-vip{
+  border-radius: 30px;
+   margin-top: 1rem;
+  background-color: #f3f3f3;
+  text-align: center;
+  width: 30px;
+  height: 16px;
+  margin-left: 0.3rem;
+  display: flex;
+}
+.day-lesson-vip1{
+  margin-top: -0rem;
+  font-size: 14px;
+  color: #d3d3d3;
+}
+.day-lesson-vip2{
+  margin-left: 0.5rem;
+  font-size: 14px;
+  color: #d3d3d3;
+}
+.day-lesson-text{
+  margin-top: -0.2rem;
+  font-size: 14px;
+  color: #ac8926;
+}
+.vip-kaitong{
+  text-align: center;
+  margin: 1.5rem;
+  margin-right: 0.5rem;
+  margin-left: 3rem;
+  background-color: #efcf68;
+  width: 70px;
+  height: 30px;
+  border-radius: 30px;
+}
+.vip-kaitong1{
+  text-anchor: middle;
+  color: #624100;
+  margin-top: 0.2rem;
+ 
+  font-size: 16px;
+}
+.day-lesson-height{
+  margin-top: 2rem;
+}
+.day-lesson-right{
+ height: 20px; 
+ margin-left: 18.5rem;
+ margin-top: 1.5rem;
+ 
+}
+.day-lesson-video1{
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+.video-image1{
+  height: 14rem;
+}
+.day-lesson-viedo2{
+  text-align: left;
+  margin-left: 0.8rem;
+}
+.day-lesson-viedo2-text{
+ font-weight: 700;
+
+}
+.day-lesson-viedo3{
+  display: flex;
+}
+.info-follow-day1{
+  text-align: center;
+  border-radius: 50px;
+  margin-left: 12rem;
+ margin-right: 0.8rem;
+  width: 50px;
+  height: 1.5rem;
+  background-color: #fcf5ed;
+}
+.video4{
+  display: flex;
+ margin-top: 1rem;
+
+margin-left: 0.8rem;
+margin-right: 0.8rem;
+}
+.video4-1{
+  
+  width: 50%;
+
+}
+.video4-1-bg{
+  width: 12rem;
+}
+.video4-2{
+text-align: left;
+margin-left: 1rem;
+}
+.video-2-text{
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-right: 0.2rem;
+  text-align: left;
+  letter-spacing:1px;
+}
+.video-3{
+margin-left: 0.5rem;
+}
+.info-follow-day2{
+  text-align: center;
+  border-radius: 50px;
+  margin-left: 11.5em;
+  width: 50px;
+  height: 1.5rem;
+  background-color: #fcf5ed;
+}
+.info-follow-day1{
+  text-align: center;
+  border-radius: 50px;
+  margin-left: 8.4em;
+  width: 50px;
+  height: 1.5rem;
+  background-color: #fcf5ed;
+}
+.info-text-video{
+
+  text-align: left;
+  margin-top: -0.5rem;
+  color: #a0a0a0;
+  font-size: 13px;
+}
+.day-info-bg{
+  
+  height: 2rem;
+  margin-top: 2.5rem;
+}
+.info-follow-day3{
+  text-align: center;
+  border-radius: 50px;
+  margin-left: 21em;
+  width: 50px;
+  height: 1.5rem;
+  background-color: #fcf5ed;
+}
+.short-video{
+  margin-top: 1rem;
+}
+.info-follow-day11{
+  text-align: center;
+  border-radius: 50px;
+  margin-left: 8.4em;
+  width: 50px;
+  height: 1.5rem;
+  margin-top: 4rem;
+  background-color: #fcf5ed;
+}
+.video8-bg{
+  display: flex;
+}
+.video8{
+  width: 25rem;
+ 
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
 </style>

@@ -9,7 +9,10 @@
           
         </div>
       <div>
-        <img  class="tongji" src="../../assets/img/统计.png" alt="">
+        <router-link to="play">
+           <img  class="tongji" src="../../assets/img/统计.png" alt="">
+        </router-link>
+       
       </div> 
       </div>
        <div class="me-head">
@@ -21,10 +24,13 @@
           <p class="name-text">Geek_8662c2</p>
           <p class="name-tel">137****2062</p>
         </div>
-        <div class="personal">
+        <router-link to="personalhomepage">
+           <div class="personal">
           <p class="personal-text">个 人 主 页</p>
            <img class="personal-right"  src="../../assets/my/右.png" alt="">
         </div>
+        </router-link>
+       
       </div>
        <div class="swipe">
          <van-swipe  :autoplay="3000"  :show-indicators="false">
@@ -42,7 +48,8 @@
          </div>   
     </div>
      <div class="me-information-background10">
-        <div class="my-image-background">
+        <router-link to="/account">
+           <div class="my-image-background">
           <div class="me-image11">
            <img class="image1" src="../../assets/my/账户.png">
           </div>
@@ -55,12 +62,15 @@
          <div>
         <img class="right" src="../../assets/img/right.png"> 
          </div>
-        </div>   
-          <div class="xian">
+        </div>
+         <div class="xian">
           <van-divider :style="{borderColor: '#bfbfbf'}" />
           </div> 
-
-        <div class="my-image-background">
+       </router-link>
+         
+         
+         <router-link to="mylesson">
+               <div class="my-image-background">
           <div class="me-image11">
            <img class="image1" src="../../assets/my/课程.png">
           </div>
@@ -73,12 +83,15 @@
          <div>
         <img class="right" src="../../assets/img/right.png"> 
          </div>
-        </div>   
+        </div>
+         </router-link>
+       
           <div class="xian">
           <van-divider :style="{borderColor: '#bfbfbf'}" />
           </div>
-
-          <div class="my-image-background">
+           
+           <router-link to="myorder">
+              <div class="my-image-background">
           <div class="me-image11">
            <img class="image1" src="../../assets/my/订 单.png">
           </div>
@@ -91,24 +104,30 @@
          <div>
         <img class="right" src="../../assets/img/right.png"> 
          </div>
-        </div>            
+        </div>  
+           </router-link>
+                   
      </div>
 
      <div class="me-information-background10">
-        <div class="my-image-background">
+       <router-link to="shop">
+         <div class="my-image-background">
           <div class="me-image11">
            <img class="image1" src="../../assets/my/商店.png">
           </div>
           <div class="account-background">
               <p>商店订单</p>
           </div>
-         <div class="xiaoxi">
-          
+         <div class="xiaoxi">         
          </div>
          <div>
         <img class="right" src="../../assets/img/right.png"> 
          </div>
-        </div>   
+        </div> 
+       </router-link>
+         
+
+
           <div class="xian">
           <van-divider :style="{borderColor: '#bfbfbf'}" />
           </div> 
@@ -150,7 +169,8 @@
        
 
       <div class="me-information-background11">
-          <div class="my-image-background">
+         <router-link to="daylesson">
+              <div class="my-image-background">
           <div class="me-image11">
            <img class="image1" src="../../assets/my/日历.png">
           </div>
@@ -162,11 +182,14 @@
          <div>
         <img class="right" src="../../assets/img/right.png"> 
          </div>
-        </div>                   
+        </div> 
+         </router-link>
+                         
      </div>
 
      <div class="me-information-background12">
-        <div class="my-image-background">
+        <router-link to="gift">
+            <div class="my-image-background">
           <div class="me-image11">
            <img class="image1" src="../../assets/my/礼券.png">
           </div>
@@ -179,7 +202,9 @@
          <div>
         <img class="right" src="../../assets/img/right.png"> 
          </div>
-        </div>   
+        </div> 
+        </router-link>
+        
           <div class="xian">
           <van-divider :style="{borderColor: '#bfbfbf'}" />
           </div> 
@@ -219,7 +244,8 @@
           <van-divider :style="{borderColor: '#bfbfbf'}" />
           </div>     
           
-          <div class="my-image-background">
+          <router-link to="invite">
+                <div class="my-image-background">
           <div class="me-image11">
            <img class="image1" src="../../assets/my/邀请.png">
           </div>
@@ -232,7 +258,9 @@
          <div>
         <img class="right" src="../../assets/img/right.png"> 
          </div>
-        </div>   
+        </div>
+          </router-link>
+
           <div class="xian">
           <van-divider :style="{borderColor: '#bfbfbf'}" />
           </div>
@@ -254,7 +282,8 @@
      </div>
 
            <div class="me-information-background11">
-          <div class="my-image-background">
+            <router-link to="learningfeedback">
+               <div class="my-image-background">
           <div class="me-image11">
            <img class="image1" src="../../assets/my/帮助与反馈.png">
           </div>
@@ -267,9 +296,13 @@
         <img class="right" src="../../assets/img/right.png"> 
          </div>
         </div>  
+
+            </router-link>
+         
         <div class="xiaoxi">
          </div>
-         <div class="my-image-background">
+         <router-link to="pushsetting">
+            <div class="my-image-background">
           <div class="me-image11">
            <img class="image1" src="../../assets/my/设 置.png">
           </div>
@@ -281,7 +314,9 @@
          <div>
         <img class="right" src="../../assets/img/right.png"> 
          </div>
-        </div>                   
+        </div>   
+         </router-link>
+                        
      </div>  
   </div>
 </template>

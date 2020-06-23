@@ -15,7 +15,7 @@
           
       </div>
         <div class="my-swipe1">
-            <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
+            <van-swipe class="my-swipe" :autoplay="3000" :show-indicators="false" indicator-color="white">
   <van-swipe-item>
     <img  src="../../assets/img/image1.png"/>  
   </van-swipe-item>
@@ -219,12 +219,13 @@
                     <img class="zixun-shu" src="../../assets/img/shu1.png" > 
                 </div>
                <div class="zixun-lunbao">
-                 <van-swipe style="height: 80px;  background-color:blue;" :autoplay="2000" vertical show-indicators="false">
-                 <van-swipe-item style="text-align: center;">1</van-swipe-item>
-                 <van-swipe-item>2</van-swipe-item>
-                 <van-swipe-item>3</van-swipe-item>
-                 <van-swipe-item>4</van-swipe-item>
-                 </van-swipe>
+                   <van-swipe style="height: 50px;"  :autoplay="3000"  vertical :show-indicators="false">
+                        <van-swipe-item>阿里CEO张勇:未来所有的商业要素将全面走向数字化</van-swipe-item>
+                        <van-swipe-item>科技爱好者周刊（第112期）：如何培养领导力</van-swipe-item>
+                        <van-swipe-item>有App十几分钟访问文件2万多次，工信部委托机构检测</van-swipe-item>
+                        <van-swipe-item>Chrome 团队： 2020年了，浏览器兼容性还是一个大问题</van-swipe-item>
+                     </van-swipe>
+             
                </div>
                <div class="zixun-r">
                  <img class="readhub-icon" src="../../assets/img/readhub-icon.png" > 
@@ -241,12 +242,12 @@
            <p class="text-zhibo">全部课程 </p> 
         </div>
          <div>
-            <img class="tuijian" src="../../assets/img/tuijian.jpg" >
-            <img class="tuijian" src="../../assets/img/tuijian.jpg" >
-            <img class="tuijian" src="../../assets/img/tuijian.jpg" >
-            <img class="tuijian" src="../../assets/img/tuijian.jpg" >
-             <img class="tuijian" src="../../assets/img/tuijian.jpg" >
-            <img class="tuijian" src="../../assets/img/tuijian.jpg" >
+            <img class="tuijian-read" src="../../assets/my/gift/image1.png" >
+           <img class="tuijian-read" src="../../assets/my/gift/image2.png" >
+           <img class="tuijian-read" src="../../assets/my/gift/image3.png" >
+           <img class="tuijian-read" src="../../assets/my/gift/image1.png" >
+           <img class="tuijian-read" src="../../assets/my/gift/image2.png" >
+           <img class="tuijian-read" src="../../assets/my/gift/image3.png" >
         </div>
               <div class="huan">
  
@@ -271,17 +272,17 @@
            <p class="text-zhibo">查看全部 </p> 
         </div> 
         <div class="daxue-back0">
-         <div class="daxue-back">
-             <img class="xunlianying"  src="../../assets/img/mac-talk.jpg" >
+         <div class="daxue-back1-1">
+             <img class="xunlianying"  src="../../assets/my/gift/image4.png" >
    
          </div>
-             <div class="daxue-back1">
-             <img class="xunlianying" src="../../assets/img/mac-talk.jpg" >
+             <div class="daxue-back2-1">
+             <img class="xunlianying" src="../../assets/my/gift/image5.png" >
          </div>       
      </div> 
      </div>
      <div>
-            <div class="xian">
+            <div class="xian5">
           <van-divider />
      </div>
        <div class="title-jike">
@@ -518,6 +519,11 @@ font-size: 13px;
     width: 180px;
     height: 200px;
 }
+.daxue-back1-1{
+    margin-left: 0.9rem;
+    width: 180px;
+   
+}
 .daxue-back1{
     margin-left: 1.6rem;
     width: 180px;
@@ -578,6 +584,7 @@ font-size: 13px;
     padding-top: 1rem;
 }
 .zixun-background{
+    
     display: flex;
 }
 .zixun{
@@ -599,6 +606,10 @@ font-size: 13px;
     height: 1rem;
 }
 .zixun-lunbao{
+    margin-top: 1.2rem;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 13px;
     height: 5rem;
     width:14rem;
 }
@@ -641,5 +652,17 @@ font-size: 13px;
     margin-top: 1.5rem;
     height: 5rem;
     display: flex;
+}
+.tuijian-read{
+    height: 7.5rem;
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+}
+.xunlianying2{
+    width: 11rem;
+    height: 3rem;  
+}
+.daxue-back2-1{
+    margin-left: 25px;
 }
 </style>

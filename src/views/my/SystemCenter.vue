@@ -92,8 +92,7 @@ export default {
    
     background-color: #ffffff;
 }
-.message-top{
-   
+.message-top{   
     margin-left: 1.5rem;
     display: flex;
 }

@@ -3,8 +3,13 @@
      <div class="study-background">
          <div class="study-title">
         <h3 class="study-title1">我的学习</h3>
-        <img class="time-image" src="../../assets/img/统计.png" >
-        <img class="time-image1" src="../../assets/img/时间.png" >
+        <router-link to="">
+           <img class="time-image" src="../../assets/img/统计.png" >
+        </router-link>
+       <router-link to="learningtrajectory">
+         <img class="time-image1" src="../../assets/img/时间.png" >
+       </router-link>
+        
              </div> 
        <div class="time-background">
          <p class="text-color">本周时长0小时0分钟</p>
@@ -25,10 +30,13 @@
         <p class="shuzi">0</p>
         <p class="biji">收藏</p>
        </div>
-       <div class="liuyan">
-        <p class="shuzi">0</p>
+         <router-link to="download">
+           <div class="liuyan">
+        <p class="shuzi">1</p>
         <p class="biji">下载</p>
        </div>
+         </router-link>
+       
        </div>  
     </div>
       <div  class="dingyuan-title">
